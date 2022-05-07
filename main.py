@@ -7,7 +7,7 @@ ACCOUNT_EMAIL = "abs@gmail.com"
 ACCOUNT_PASSWORD = "Password"
 PHONE = "123456789"
 
-chrome_driver_path = "C:/Users/kamal/OneDrive/Desktop/development/chromedriver"
+chrome_driver_path = "your chrome driver exe file path"
 driver = webdriver.Chrome(chrome_driver_path)
 driver.get("https://www.linkedin.com/jobs/search/?f_LF=f_AL&geoId=102257491&keywords=marketing%20intern&location=London%2C%20England%2C%20United%20Kingdom&redirect=false&position=1&pageNum=0")
 
